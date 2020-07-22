@@ -3,7 +3,7 @@
 ## 建立 Amazon ECR Repositories
 
 - [ ] 使用 AWS Console 方式建立
-- [ ] 複製自己帳號專屬的 `ecr push` 指令到記事本
+- [ ] 複製自己帳號專屬的 `ecr push` 指令到記事本，等一下會用到
 
 ## 測試 docker 指令
 
@@ -27,10 +27,10 @@ docker run --rm hello-world
 ```bash
 # docker 基本指令
 
-# 提取 docker image
+# 提取 docker image，這邊使用 AWS 官方的 docker image
 docker pull amazon/amazon-ecs-sample:latest
 
-# 也可以在提取 ckmates 的 docker image (optional)
+# 也可以多提取 ckmates 的 docker image (optional)
 docker pull ckmates/httpd:v1
 ```
 
